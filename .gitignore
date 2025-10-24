@@ -1,0 +1,24 @@
+
+---
+
+## 🧾 **Final `.gitignore`**
+
+```gitignore
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Streamlit and logs
+.streamlit/
+logs/
+
