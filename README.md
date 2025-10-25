@@ -43,13 +43,17 @@ deepfake-guard/
 ├── README.md
 └── .gitignore
 
+
 ##  Installation
 
 git clone https://github.com/Utkarshshukla4/DeepFake_Guard.git
 
 cd DeepFake_Guard
 
-pip install -r requirements.txt
+pip install -r requirements.txt {Windows}
+
+python3 -m pip install -r requirements.txt {Linux}
+
 
 ## Activate the Environment
 
@@ -68,9 +72,7 @@ source env/bin/activate
 
 ## Run the Project
 
-_Option 1:_
-
-**Live Detection (Webcam)**
+_Option 1:_ **Live Detection (Webcam)** 
 
 python main.py
 
@@ -80,9 +82,7 @@ python main.py
   -Press Q to exit.
 
 
-_Option 2:_
-
-**Streamlit Dashboard**
+_Option 2:_ **Streamlit Dashboard**
 
 streamlit run model/utils/app/dashboard.py
 
