@@ -14,7 +14,7 @@ It can detect deepfake faces, voice manipulations, and altered content patterns.
 - CLI-based and lightweight  
 - Streamlit Dashboard
 
-  ## What This Does
+## What This Does
 
 -Detects AI-generated fake images or videos that imitate real individuals.
 
