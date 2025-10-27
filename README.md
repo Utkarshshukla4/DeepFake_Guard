@@ -119,7 +119,7 @@ Deepfake Guard uses CNN-LSTM architecture to differentiate real and AI-generated
 
 **Utkarsh Shukla**
 
-_Cybersecurity Enthusiasts_
+_Cybersecurity Enthusiast_
 
 Email- utqrshkumar07@gmail.com
 
