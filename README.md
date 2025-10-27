@@ -53,6 +53,8 @@ git clone https://github.com/Utkarshshukla4/DeepFake_Guard.git
 
 cd DeepFake_Guard
 
+## Dependencies 
+
 pip install -r requirements.txt {Windows}
 
 python3 -m pip install -r requirements.txt {Linux}
@@ -116,6 +118,8 @@ Deepfake Guard uses CNN-LSTM architecture to differentiate real and AI-generated
 ## Contact
 
 **Utkarsh Shukla**
+
+_Cybersecurity Enthusiasts_
 
 Email- utqrshkumar07@gmail.com
 
