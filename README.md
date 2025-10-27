@@ -1,10 +1,4 @@
-## Contact
 
-**Utkarsh Shukla**
-
-Email- utqrshkumar07@gmail.com
-
-Github- https://github.com/Utkarshshukla4
 
 ##  Overview
 
@@ -20,6 +14,15 @@ It can detect deepfake faces, voice manipulations, and altered content patterns.
 - CLI-based and lightweight  
 - Streamlit Dashboard
 
+  ## What This Does
+
+-Detects AI-generated fake images or videos that imitate real individuals.
+
+-Analyzes facial inconsistencies, lighting, and pixel artifacts using deep learning.
+
+-Provides authenticity verification to reduce misinformation or identity misuse.
+
+-Protects individuals and organizations from deepfake-based social engineering.
 
 ##  Architecture
 
@@ -110,7 +113,13 @@ Press Ctrl + C in the terminal to stop running scripts.
 Deepfake Guard uses CNN-LSTM architecture to differentiate real and AI-generated multimedia.
 
 
+## Contact
 
+**Utkarsh Shukla**
+
+Email- utqrshkumar07@gmail.com
+
+Github- https://github.com/Utkarshshukla4
 
 
 
