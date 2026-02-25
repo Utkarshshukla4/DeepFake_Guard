@@ -66,13 +66,13 @@ deepfake-guard/
 
 ## Activate the Environment
 
-_Windows:_
+{Windows}:
 
 •python -m venv env
 
 •env\Scripts\activate
 
-_Linux / Mac:_
+{Linux / Mac}:
 
 •python3 -m venv env
 
