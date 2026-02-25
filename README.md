@@ -14,7 +14,7 @@ It can detect deepfake faces, voice manipulations, and altered content patterns.
 - CLI-based and lightweight  
 - Streamlit Dashboard
 
-## What This Does
+## What This Tool Does
 
 -Detects AI-generated fake images or videos that imitate real individuals.
 
@@ -49,30 +49,34 @@ deepfake-guard/
 
 ##  Installation
 
-git clone https://github.com/Utkarshshukla4/DeepFake_Guard.git
+•git clone https://github.com/Utkarshshukla4/DeepFake_Guard.git
 
-cd DeepFake_Guard
+•cd DeepFake_Guard
 
 ## Dependencies 
 
-pip install -r requirements.txt {Windows}
+{Windows}:
 
-python3 -m pip install -r requirements.txt {Linux}
+•pip install -r requirements.txt
+
+{Linux}:
+
+•python3 -m pip install -r requirements.txt 
 
 
 ## Activate the Environment
 
 _Windows:_
 
-python -m venv env
+•python -m venv env
 
-env\Scripts\activate
+•env\Scripts\activate
 
 _Linux / Mac:_
 
-python3 -m venv env
+•python3 -m venv env
 
-source env/bin/activate
+•source env/bin/activate
 
 
 ## Run the Project
