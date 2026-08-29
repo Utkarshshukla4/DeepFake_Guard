@@ -1,134 +1,187 @@
+# DF-Guard: Deepfake Detection System
 
+## About the Project
 
-##  Overview
+DF-Guard is an AI-powered cybersecurity project developed to detect deepfake videos and audio using deep learning techniques.
 
-Deepfake Guard identifies synthetic or manipulated media using pretrained deep learning models.  
-It can detect deepfake faces, voice manipulations, and altered content patterns.
+The project provides a Streamlit dashboard for video analysis and also supports real-time deepfake detection using a webcam.
 
+---
 
-##  Features
+## Main Features
 
-- Real-Time Detects video & audio deepfakes  
-- Confidence scoring per file  
-- Visual explanation of manipulated frames  
-- CLI-based and lightweight  
-- Streamlit Dashboard
+* Real-time deepfake detection using webcam
+* Deepfake video analysis
+* AI-generated and modified audio detection
+* CNN-based deep learning model
+* Spectral feature analysis for audio
+* Streamlit-based detection dashboard
+* Fake probability analysis
+* Cybersecurity application for detecting media manipulation
 
-## What This Tool Does
+---
 
--Detects AI-generated fake images or videos that imitate real individuals.
+## Technologies Used
 
--Analyzes facial inconsistencies, lighting, and pixel artifacts using deep learning.
+* **Python** – Core development
+* **Deep Learning** – Media detection
+* **CNN** – Face analysis
+* **Spectral Analysis** – Audio analysis
+* **OpenCV** – Video processing
+* **Streamlit** – Web dashboard
 
--Provides authenticity verification to reduce misinformation or identity misuse.
-
--Protects individuals and organizations from deepfake-based social engineering.
-
-##  Architecture
-
-[Video / Audio Input]
-      ↓
-[Frame / Audio Feature Extraction]
-      ↓
-[Deepfake Detection Model (CNN/LSTM)]
-      ↓
-[Output: Real / Fake + Confidence Score]
-
+---
 
 ## Project Structure
 
-deepfake-guard/
-├── src/
-├── models/
-├── docs/
-│   └── architecture.png
+```text
+DF-Guard/
+│
+├── main.py
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+│
+├── model/
+│   ├── ...
+│   └── utils/
+│       └── app/
+│           └── dashboard.py
+│
+└── ...
+```
 
+---
 
-##  Installation
+## How It Works
 
-•git clone https://github.com/Utkarshshukla4/DeepFake_Guard.git
+```text
+Video / Audio Input
+        ↓
+Preprocessing
+        ↓
+AI Model Analysis
+        ↓
+Feature Detection
+        ↓
+REAL / FAKE Prediction
+        ↓
+Detection Result
+```
 
-•cd DeepFake_Guard
+The system processes the uploaded or live media, extracts relevant features, and uses the trained models to determine whether the content is real or manipulated.
 
-## Dependencies 
+---
 
-{Windows}:
+## Installation & Setup
 
-•pip install -r requirements.txt
+### 1. Create Virtual Environment
 
-{Linux}:
+```bash
+python -m venv env
+```
 
-•python3 -m pip install -r requirements.txt 
+### 2. Activate Virtual Environment
 
+Windows:
 
-## Activate the Environment
+```bash
+env\Scripts\activate
+```
 
-{Windows}:
+### 3. Install Project Dependencies
 
-•python -m venv env
+```bash
+pip install -r requirements.txt
+```
 
-•env\Scripts\activate
+---
 
-{Linux / Mac}:
+## Running the Project
 
-•python3 -m venv env
+### Option 1: Live Detection
 
-•source env/bin/activate
+Run:
 
-
-## Run the Project
-
-_Option 1:_ **Live Detection (Webcam)** 
-
+```bash
 python main.py
+```
 
+The application opens the webcam and displays the detection result as **REAL** or **FAKE**.
 
-  -Opens a live webcam window with “REAL” or “FAKE” overlay.
+Press **Q** to exit the live detection window.
 
-  -Press Q to exit.
+### Option 2: Streamlit Dashboard
 
+Run:
 
-_Option 2:_ **Streamlit Dashboard**
-
+```bash
 streamlit run model/utils/app/dashboard.py
+```
 
+The Streamlit dashboard opens in a web browser.
 
-  -Opens a browser dashboard to upload a video for detection.
+Users can upload a video for analysis and view the predicted fake probability.
 
-  -Shows the fake probability percentage.
+---
 
-## Input Example
+## Detection Output
 
-Upload a short video or audio clip.
+The system provides results such as:
 
- ## Output Example
- 
-Result: Deepfake Detected  
+```text
+Prediction: REAL
+Fake Probability: 12%
 
-Confidence: 91%
+Prediction: FAKE
+Fake Probability: 87%
+```
+
+The result helps users understand the likelihood that the analyzed media has been manipulated.
+
+---
+
+## Security Application
+
+DF-Guard can be used as a cybersecurity solution for identifying manipulated digital media.
+
+It can help in detecting deepfake content used for misinformation, impersonation, identity manipulation, and other forms of digital media abuse.
+
+---
+
+## Limitations
+
+* Detection accuracy depends on the trained model and input quality.
+* Real-time detection requires a working webcam.
+* The project is primarily designed for educational and demonstration purposes.
+* Very high-quality or previously unseen deepfakes may not always be detected correctly.
+
+---
+
+## Future Improvements
+
+* Improve model accuracy with larger datasets
+* Support additional video formats
+* Add real-time audio detection
+* Improve live webcam performance
+* Deploy the system as a cloud-based application
+* Add advanced deepfake detection models
+
+---
 
 ## Stop the Project
 
-Press Ctrl + C in the terminal to stop running scripts.
+To stop the Streamlit application or running script, press:
 
-## Summary
+```text
+Ctrl + C
+```
 
-Deepfake Guard uses CNN-LSTM architecture to differentiate real and AI-generated multimedia.
+in the terminal.
 
+---
 
-## Contact
+## Author
 
 **Utkarsh Shukla**
 
-_Cybersecurity Enthusiast_
-
-Email- utqrshkumar07@gmail.com
-
-Github- https://github.com/Utkarshshukla4
-
-
-
-
+AI & Cybersecurity Project | Deep Learning | Deepfake Detection
